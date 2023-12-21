@@ -1,10 +1,10 @@
 cmake_minimum_required(VERSION 3.2)
 
-project(/hl_mai_lab_02 C CXX)
+project(hl_server C CXX)
+
 
 SET (TRIP_API_BINARY "trip_api")
 SET (AUTH_SERVICE "auth_api")
-
 
 find_package(OpenSSL)
 find_package(Threads)

@@ -27,7 +27,7 @@ services:
     volumes:
       - db-node-ex01-data:/var/lib/mysql
 
-  messanger-api:
+  trip-api:
     build:
       context: trip_api_service
       dockerfile: Dockerfile
